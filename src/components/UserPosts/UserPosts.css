@@ -1,0 +1,25 @@
+.User-posts{
+    border: 1px solid var(--theme-color-dark);
+    padding: 10px;
+    margin: 5px auto;
+}
+.card-header{
+    background: var(--theme-color-light);
+    color: var(--theme-font-color);
+    display: flex;    
+}
+.card-header a{
+    color: var(--theme-font-color);
+    flex: 1;
+}
+.card p{
+    padding-left: 20px;
+    padding-top: 20px;    
+}
+.card-body{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;    
+}
+.card-body{
+    border-bottom: 0;
+}

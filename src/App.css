@@ -1,0 +1,26 @@
+:root{
+  --theme-color-dark : #1e3799;
+  --theme-color-light: #4a69bd;
+  --theme-font-color: #f5f6fa;
+}
+
+.App-container {
+  margin-top: 80px;
+  overflow: hidden;
+}
+.Task-body{
+  box-sizing: border-box;
+  padding: 10px;
+}
+thead tr{
+  background: var(--theme-color-dark);
+  color: var(--theme-font-color);
+}
+.table-bordered td, .table-bordered th{
+  border-color: black;
+}
+@media (max-width: 767px){
+  .container{
+    padding: 0 !important;
+  }
+}
